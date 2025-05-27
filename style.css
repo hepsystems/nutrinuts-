@@ -15,11 +15,13 @@ header {
     min-height: 150px; /* Adjusted min-height for better fit */
     border-bottom: 10px solid #e8491d;
     position: relative; /* Needed for absolute positioning of logo and form */
-    display: none; /* Use flex for overall header layout */
+    display: flex; /* Use flex for overall header layout */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
 }
+
+
 
 .logo {
     position: absolute;
@@ -64,7 +66,7 @@ button[type="submit"]:hover {
 
 header h1 {
     text-align: center;
-    /* display: none; /* Keep this if you want to hide the H1, otherwise remove */
+    display: none; /* Keep this if you want to hide the H1, otherwise remove */
     padding-top: 20px; /* Add some padding if the H1 is visible */
     margin: 0; /* Remove default margin */
 }
