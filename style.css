@@ -82,7 +82,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 15px; /* Consistent spacing between nav items */
+    margin: 5 15px; /* Consistent spacing between nav items */
 }
 
 nav a {
