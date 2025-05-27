@@ -15,7 +15,7 @@ header {
     min-height: 150px; /* Adjusted min-height for better fit */
     border-bottom: 10px solid #e8491d;
     position: relative; /* Needed for absolute positioning of logo and form */
-    display: flex; /* Use flex for overall header layout */
+    display: none; /* Use flex for overall header layout */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
